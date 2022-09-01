@@ -1,0 +1,62 @@
+body{
+
+background-color: bisque;
+
+
+}
+
+
+.menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1ft;
+    place-items: center;
+
+}
+.gallery{
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+a{
+    color: rgb(51, 189, 157);
+    font-size: 48px;
+    text-decoration: none;
+
+}
+a:hover{
+color: aqua;
+text-decoration: underline;
+}
+
+
+h1{
+
+color: rgb(17, 96, 96);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+.main-grid{
+background-color: rgb(87, 5, 36);
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+
+place-items: center;
+
+}
+
+
+h2{
+color: rgb(255, 255, 255);
+
+border: 20px;
+padding: 10px;
+}
+
+
+
+
+
